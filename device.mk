@@ -92,3 +92,4 @@ $(call soong_config_set,qti_vibrator,use_effect_stream,true)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/eqs/eqs-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
